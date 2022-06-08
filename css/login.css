@@ -1,0 +1,66 @@
+.modal {
+  background-color: #fff;
+  width: 50rem;
+  min-width: 30rem;
+  height: 30rem;
+  border-radius: 0.15rem;
+  box-shadow: 0 1px 6px 0 rgba(161, 162, 165, 0.28);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2.5rem auto;
+}
+.img {
+  height: 30rem;
+  width: 100%;
+  background-image: url(../img/joyce-mccown-gpiKdZmDQig-unsplash.jpg);
+  background-size: cover;
+  border-radius: 0 0.15rem 0.15rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.75rem;
+}
+
+form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+.form-area > h2 {
+  background-color: rgba(254, 213, 16, 1);
+  background-image: linear-gradient(
+    90deg,
+    rgb(255, 115, 34) 43%,
+    rgba(255, 117, 31, 1) 53%,
+    rgb(255, 114, 38) 61%,
+    rgba(103, 173, 250, 1) 72%,
+    rgb(58, 127, 206) 81%,
+    rgba(82, 149, 237, 1) 83%,
+    rgba(39, 105, 250, 1) 90%,
+    rgba(33, 98, 226, 1) 100%
+  );
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.form-area > p {
+  color: #444;
+}
+input,
+textarea {
+  padding: 0.65rem;
+  outline: none;
+  border: 0.1rem solid #0f55e7;
+  border-radius: 0.15rem;
+}
