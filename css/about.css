@@ -13,7 +13,6 @@ main {
     color: #222; 
 }
 #name{
-    background-color: rgba(254, 213, 16, 1);
     background-image: linear-gradient(
       90deg,
       rgb(255, 115, 34) 43%,
@@ -35,4 +34,16 @@ main {
 p > span{
     color: #0f55e7;
     font-weight: bold;
+}
+.big-btn{
+  transition: all 0.3s ease;
+}
+.big-btn > a{
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0f55e7;
+  padding: .75rem 1rem;
+  border-radius: 0.15rem;
+  box-shadow: 0 1px 6px 0 rgba(161, 162, 165, 0.28);
 }
