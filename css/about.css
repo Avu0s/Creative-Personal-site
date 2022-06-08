@@ -2,6 +2,7 @@ body{
     background-color: #fff;
 }
 main {
+  display:flex;
   flex-direction: column;
   height: 100%;
   justify-content: space-evenly;
