@@ -1,72 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/reg.css" />
-    <script src="https://kit.fontawesome.com/ea3c29a0fe.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/ea3c29a0fe.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Register</title>
-</head>
-
-<body>
-    <header>
-        <nav>
-            <div class="nav-cnt">
-                <div class="logo">
-                    <a href="index.html" id="logo-id">&#60;Grand/&#62;</a>
-                </div>
-                <div class="nav">
-                    <ul>
-                        <li><a href="index.html">About Me</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="#">Register</a></li>
-                        <li id="box"><a href="login.html">Login</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" id="logo-id">&#60;Grand/&#62;</a>
+      <input class="side-menu" type="checkbox" id="side-menu" />
+      <label class="hamb" for="side-menu"
+        ><span class="hamb-line"></span
+      ></label>
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="index.html">About Me</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="reg.html">Register</a></li>
+          <li id="box"><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <div class="modal">
-            <h2>Create Account</h2>
-            <hr>
-            <form action="#">
-                <div class="formal">
-                    <input type="text" name="fname" placeholder="First Name" required />
-                    <input type="text" name="lname" placeholder="Last Name" required />
-                    <input type="tel" name="phone" placeholder="Phone Number" required />
-                    <select name="gender">
-                        <option value="" selected disabled>Gender</option>
-                        <option value="m">Male</option>
-                        <option value="f">Female</option>
-                        <option value="p">Private</option>
-                    </select>
-                    <input type="country" name="country" placeholder="Country" required />
-                </div>
-                <div class="formal">
-                    <input type="state" name="state" placeholder="State/Province" required />
-                    <input type="email" name="email" class="box" placeholder="Email" required />
-                    <input type="password" name="password" class="box" placeholder="Password" required />
-                    <input type="password" name="password" class="box" placeholder="Confirm Password" required />
-                    <button type="submit">Register</button>
-                </div>
-            </form>
+      <div class="modal">
+        <div class="form-area">
+          <h2>Create Account</h2>
+          <hr />
+          <form action="#">
+            <div class="formal">
+              <input
+                type="text"
+                name="fname"
+                placeholder="First Name"
+                required
+              />
+              <input
+                type="text"
+                name="lname"
+                placeholder="Last Name"
+                required
+              />
+              <input
+                type="tel"
+                name="phone"
+                placeholder="Phone Number"
+                required
+              />
+              <select name="gender">
+                <option value="" selected disabled>Gender</option>
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+                <option value="p">Private</option>
+              </select>
+              <input
+                type="country"
+                name="country"
+                placeholder="Country"
+                required
+              />
+            </div>
+            <div class="formal">
+              <input
+                type="state"
+                name="state"
+                placeholder="State/Province"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                class="box"
+                placeholder="Email"
+                required
+              />
+              <input
+                type="password"
+                name="password"
+                class="box"
+                placeholder="Password"
+                required
+              />
+              <input
+                type="password"
+                name="password"
+                class="box"
+                placeholder="Confirm Password"
+                required
+              />
+              <button type="submit">Register</button>
+            </div>
+          </form>
         </div>
+      </div>
     </main>
     <footer>
-        <div class="company">
-            <p>All Rights Reserved &copy; Grand 2022</p>
-        </div>
-        <div class="socials">
-            <i class="fa-brands fa-twitter-square"></i>
-            <i class="fa-brands fa-whatsapp-square"></i>
-            <i class="fa-brands fa-dribbble-square"></i>
-            <i class="fa-brands fa-github-square"></i>
-        </div>
+      <div class="company">
+        <p>All Rights Reserved &copy; Grand 2022</p>
+      </div>
+      <div class="socials">
+        <i class="fa-brands fa-twitter-square"></i>
+        <i class="fa-brands fa-whatsapp-square"></i>
+        <i class="fa-brands fa-dribbble-square"></i>
+        <i class="fa-brands fa-github-square"></i>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
