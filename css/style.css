@@ -175,6 +175,9 @@ footer {
 .socials {
   font-size: 1.75rem;
 }
+.fa-brands{
+  cursor: pointer;
+}
 .company {
   font-size: 0.9rem;
   font-weight: 400;
