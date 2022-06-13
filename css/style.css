@@ -131,6 +131,12 @@ main {
 h1 {
   color: var(--blackish);
 }
+hr {
+  height: 0.1rem;
+  width: 100%;
+  border-width: 0;
+  background-image: var(--orangeGradient);
+}
 input,
 textarea {
   padding: 0.65rem;
@@ -140,6 +146,7 @@ textarea {
   align-self: center;
   width: 130%;
 }
+
 button {
   border: none;
   padding: 0.75rem 1.65rem;
