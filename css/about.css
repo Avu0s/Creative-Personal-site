@@ -99,7 +99,6 @@ ol > li > ul > li {
 h3 {
   color: #444;
   display: flex;
-  justify-content: space-between;
   font-size: 1rem;
 }
 .curly {
