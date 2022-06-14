@@ -4,7 +4,7 @@
   --white: #fff;
   --offwhite: rgb(245, 245, 245);
   --blue: #0058e6;
-  --dblue:  #0051d3;
+  --dblue: #0051d3;
   --orangeGradient: linear-gradient(
     90deg,
     #ff870f 43%,
@@ -14,7 +14,8 @@
     #0058e6 81%,
     rgba(82, 149, 237, 1) 83%,
     #1e90ff 90%,
-    #0058e6 100% );
+    #0058e6 100%
+  );
   --boxShadow: 0 1px 6px 0 rgba(215, 215, 216, 0.28);
   --dBoxShadow: 0 1px 6px 0 rgba(161, 162, 165, 0.28);
 }
@@ -182,7 +183,7 @@ footer {
 .socials {
   font-size: 1.75rem;
 }
-.fa-brands{
+.fa-brands {
   cursor: pointer;
 }
 .company {
