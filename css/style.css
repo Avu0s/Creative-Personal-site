@@ -7,10 +7,11 @@
   --dblue: #1A266B;
   --orangeGradient: linear-gradient(
     90deg,
-    #ff9a36 43%,
+    #ff9a36 13%,
+    rgb(243, 131, 62) 23%,
     rgb(240, 141, 80) 53%,
-    #eda154 61%,
-    #1484cd 72%,
+    #eda054 60%,
+    #1484cd 62%,
     #009aee 90%,
     #1484cd 100%
   );
