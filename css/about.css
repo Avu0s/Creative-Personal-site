@@ -22,11 +22,10 @@ main {
   justify-content: center;
   align-items: center;
   padding: 1rem 0.5rem;
-  
 }
 .pic {
-  height: 15rem;
-  width: 15rem;
+  height: 16rem;
+  width: 16rem;
   background: url(../img/joyce-mccown-gpiKdZmDQig-unsplash.jpg);
   background-size: contain;
   border-radius: 50%;
@@ -120,7 +119,7 @@ h3 {
   border-radius: 0.15rem;
   box-shadow: var(--dBoxShadow);
 }
-.show{
+.show {
   animation: 2.75s;
 }
 @media (min-width: 800px) {
@@ -140,6 +139,10 @@ h3 {
   .info > p {
     text-align: left;
   }
+  .pic {
+    height: 17rem;
+    width: 17rem;
+  }
   section {
     width: 66%;
   }
@@ -152,9 +155,13 @@ h3 {
     display: flex;
     flex-direction: column;
   }
+  .slide-text,
+  .slide,
+  .show {
+    animation-timing-function: ease-in-out;
+  }
   .slide {
     animation-name: slide;
-    animation-timing-function: ease-in-out;
   }
   @keyframes slide {
     0% {
@@ -169,17 +176,15 @@ h3 {
       transform: translateY(0.5rem);
     }
     70% {
-      
-      transform: translateY(0);
-    }
-    100% {
       opacity: 1;
       transform: translateY(0);
     }
+    100% {
+      transform: translateY(0);
+    }
   }
-  .slide-text{
+  .slide-text {
     animation-name: slide-text;
-    animation-timing-function: ease-in-out;
   }
   @keyframes slide-text {
     0% {
@@ -191,20 +196,18 @@ h3 {
       transform: translateY(2.5rem);
     }
     50% {
+      opacity: 1;
       transform: translateY(0.5rem);
     }
     70% {
-      
       transform: translateY(0);
     }
     100% {
-      opacity: 1;
       transform: translateY(0);
     }
   }
-  .show{
+  .show {
     animation-name: show;
-    animation-timing-function: ease-in-out;
   }
   @keyframes show {
     0% {
