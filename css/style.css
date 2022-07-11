@@ -44,6 +44,9 @@ ul {
   position: sticky;
   top: 0;
 }
+.icons{
+  color: var(--white);
+}
 #logo-id {
   background-image: var(--orangeGradient);
   background-size: 100%;
