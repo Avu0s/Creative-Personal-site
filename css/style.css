@@ -68,6 +68,7 @@ ul {
   max-height: 0;
   top: 5rem;
   transition: 0.5s ease-out;
+  touch-action: none;
 }
 .nav-links a {
   display: block;
